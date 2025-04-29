@@ -6,7 +6,7 @@ function Front(){
         <div className="whole-background">
 
             <div className="">
-
+                
             </div>
 
 
