@@ -1,5 +1,63 @@
-.whole-background{
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+.whole{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.nav{
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #ffffff08;    
+}
+.nav p{
+    color: white;
+    padding: 10px;
+}
+.home-profil{
+    background-color: #ffffff08;    
+    margin-top: 100px;
+    width:70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 20px;
+    
+}
+.profil-image{
+    border: 2px solid white;
+    width: 30%;
+    height: 70%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.profil-image img{
     width: 100%;
     height: 100%;
-    background-color: black;
+}
+.hello{
+    font-family: "Playfair Display", serif;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+.hello-name{
+    font-family: "Boldonse", system-ui;
+}
+.hello-resume{
+    font-size: medium;
+    word-spacing: 10px;
 }
