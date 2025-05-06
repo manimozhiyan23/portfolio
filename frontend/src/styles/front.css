@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 .whole{
     background-color: black;
     width: 100%;
@@ -65,13 +66,28 @@
 }
 .about{
     width: 80%;
-    height: 70vh;
+    height: 80vh;
     margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: #ffffff08;
+}
+.about-second{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    border-radius: 20px;
+}
+.about-me-name{
+    font-family: "Jost", sans-serif;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: xx-large;
+    color:#f9d302;
 }
 .about-hello,.about-name,.about-me{
     color: rgb(255, 255, 255);
@@ -117,4 +133,79 @@
     color: black;
     background: #f9d302;
     border: 1px solid 
+}
+
+/* education and experience */
+
+.edu{
+    width: 80%;
+    height: 80vh;
+    border: 2px solid;
+    background-color: #ffffff08;
+    margin-top: 100px;
+    border-radius: 20px;
+
+}
+.edu-name p{
+    font-family: "Jost", sans-serif;
+    color:#f9d302;
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.school-college-left-photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.edu-school-college-names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.edu-year{
+    color: #f9d302;
+}
+
+/* hire me */
+.freelancer-hire{
+    width: 80%;
+    height: 40vh;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: #ffffff08;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.first-text-hire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:xx-large;
+}
+.second-text-hire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.hire-first p{
+    color: aliceblue;
+}
+.hire-me button{
+    background: none;
+    width: 120px;
+    height: 40px;
+    background-color: #f9d302;
+    color: black;
+    border-radius: 10px;
 }
