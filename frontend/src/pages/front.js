@@ -1,6 +1,9 @@
 import "../styles/front.css";
 import profil from "../images/profil.png"
 import edu from "../images/edu.png";
+import portfolio from "../images/portfolio-image.jpg";
+import desert from "../images/desert.jpg";
+import electrical from "../images/electrical.jpg";
 function Front(){
     return(
         <>
@@ -112,6 +115,58 @@ function Front(){
         <div className="hire-me">
           <button>Get Hire Me!</button>
         </div>
+        </div>
+
+
+        {/* project */}
+
+        <div className="project">
+          <div className="project-name">
+            <p>Recent Projects</p>
+          </div>
+          <div className="project-images">
+          <div className="project1">
+            <img src={portfolio}/>
+            <div>
+              <p>A modern, personal portfolio website designed 
+                to showcase web development skills and projects.
+                 Built using React.js for fast and interactive UI
+                 . The integrated EmailJS-powered contact form allows
+                  visitors to reach out easily and directly.</p>
+            </div>
+            <div>
+              <p className="project-language">Tech Stack : ReactJS, EmailJS</p>
+            </div>
+          </div>
+          <div className="project1">
+            <img src={desert}/>
+            <div>
+              <p>A visually stunning and appetizing website for a 
+                cake and dessert business. Developed with React.js
+                 to offer a smooth, responsive browsing experience.
+                  The contact page is powered by EmailJS for handlin
+                  g customer orders and inquiries.</p>
+            </div>
+            <div>
+              <p className="project-language">Tech Stack : ReactJS, EmailJS</p>
+            </div>
+          </div>
+          <div className="project1">
+            <img src={electrical}/>
+            <div>
+            <p>A professional and informative website for an
+               electrical panel service provider. Built using
+                React.js to clearly present service offerings
+                . Includes a contact form using EmailJS, enabling 
+                customers to request quotes and services e
+                ffortlessly.</p>
+                </div>
+                <div>
+              <p className="project-language">Tech Stack : ReactJS, EmailJS</p>
+            </div>
+          </div>
+          </div>
+          
         </div>
 
 
