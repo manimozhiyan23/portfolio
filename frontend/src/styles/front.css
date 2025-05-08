@@ -261,3 +261,36 @@
 .project-language{
     color: #f9d302;
 }
+
+.project1 {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project1:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  }
+  
+  /* Optional: Image darken effect on hover */
+  .project1 img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project1:hover img {
+    opacity: 0.85;
+  }
+  
+  /* Optional: Make text pop on hover */
+  .project1 p {
+    transition: color 0.3s ease;
+  }
+  
+  .project1:hover p {
+    color: #008080; /* yellow-ish highlight */
+  }
+  
