@@ -274,7 +274,6 @@
     box-shadow: 0 6px 20px rgba(0,0,0,0.3);
   }
   
-  /* Optional: Image darken effect on hover */
   .project1 img {
     width: 100%;
     height: auto;
@@ -285,12 +284,99 @@
     opacity: 0.85;
   }
   
-  /* Optional: Make text pop on hover */
   .project1 p {
     transition: color 0.3s ease;
   }
   
   .project1:hover p {
-    color: #008080; /* yellow-ish highlight */
+    color: #008080; 
   }
-  
+
+  /* contact */
+
+.contact{
+    width: 80%;
+    height: 90vh;
+    background-color:aqua;
+    margin-top: 100px;
+    border-radius: 20px;
+
+
+}
+.get-in-touch{
+    font-family: "Jost", sans-serif;
+    color:#f9d302;
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-both{
+    width: 100%;
+    height: 60vh;
+    background-color: aqua; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name-email-phone{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name-email-phone input{
+    width: 25%;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+}
+.your-name{
+    margin-top: 20px;
+    color: #fff;
+}
+.Your-email{
+    margin-top: 20px;
+    color: #fff;
+}
+.Your-phone{
+    margin-top: 20px;
+    color: #fff;
+}
+.text-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.text-box{
+    border-radius: 10px;
+    border: none;
+    background-color: #333333;
+    color: #fff;
+    width: 25%;
+    height: 20vh;
+}
+.text-box input{
+    width: 25%;
+}
+.contact-button{
+    border: none;
+    background-color: #333333;
+    color: #008080; 
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+.contact-details{
+    color:#333333;
+    
+}   

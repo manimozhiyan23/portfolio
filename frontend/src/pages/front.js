@@ -170,24 +170,70 @@ function Front(){
         </div>
 
 
+          {/* contact */}
+          <div className="contact">
+            <div>
+              <div className="get-in-touch">
+                <p>Get In Touch</p>
+              </div>
+              <div className="contact-both">
+              <div className="name-email-phone">
+                <input placeholder="Your name" type="name" className="your-name"></input>
+                <input placeholder="Your Email" type="email" className="Your-email"></input>
+                <input placeholder="Your Phone" type="phone" className="Your-phone"></input>
+              </div>
+              <div className="text-area">
+                <textarea className="text-box" placeholder="Write a Message"></textarea>
+              </div>
+              <div>
+                <button className="contact-button">Send Message</button>
+              </div>
+              </div>
 
+              <div className="">
+                <div>
+                  <div className="contact-details">
+                    <p>Contact Details</p>
+                  </div>
+                  <div className="details">
+                  <div className="mail">
+                    <p>Email: manimozhiyan88@gmail.com</p>
+                  </div>
+                  <div className="phone-number">
+                    <p>Phone: +91 8428399713</p>
+                  </div>
+                  <div className="address">
+                    <p>60ft road 
+                      sellur ,
+                      Madurai
+                    </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+
+
+
+            
 
           
+          
+          </div>
 
         
-         
+        
+        
+        
+        
+        
+        
+        
         </div>
-
-       
-      
-      
-      
-      
-      
-      
-      
-      </div>
-        </>
-    );
-}
-export default Front;
+          </>
+      );
+  }
+  export default Front;
