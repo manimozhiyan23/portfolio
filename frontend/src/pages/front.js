@@ -172,10 +172,11 @@ function Front(){
 
           {/* contact */}
           <div className="contact">
-            <div>
-              <div className="get-in-touch">
+             <div className="get-in-touch">
                 <p>Get In Touch</p>
               </div>
+            <div className="two-side">
+             
               <div className="contact-both">
               <div className="name-email-phone">
                 <input placeholder="Your name" type="name" className="your-name"></input>
@@ -186,11 +187,11 @@ function Front(){
                 <textarea className="text-box" placeholder="Write a Message"></textarea>
               </div>
               <div>
-                <button className="contact-button">Send Message</button>
+                <button className="contact-button">Submit</button>
               </div>
               </div>
 
-              <div className="">
+              <div className="contact-details-whole">
                 <div>
                   <div className="contact-details">
                     <p>Contact Details</p>
@@ -216,6 +217,11 @@ function Front(){
           </div>
 
 
+          {/* footer for copyrights */}
+
+          <div className="footer">
+            <p>© Copyright | Manimozhiyan 2025 All Right Reserved</p>
+          </div>
 
 
             

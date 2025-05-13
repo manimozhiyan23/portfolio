@@ -297,11 +297,17 @@
 .contact{
     width: 80%;
     height: 90vh;
-    background-color:aqua;
+    /* background-color:aqua;  */
     margin-top: 100px;
     border-radius: 20px;
-
-
+    
+}
+.two-side{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 .get-in-touch{
     font-family: "Jost", sans-serif;
@@ -315,7 +321,7 @@
 .contact-both{
     width: 100%;
     height: 60vh;
-    background-color: aqua; 
+    /* background-color: aqua;   */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,7 +335,7 @@
     flex-direction: column;
 }
 .name-email-phone input{
-    width: 25%;
+    width:50%;
     height: 5vh;
     border: none;
     border-radius: 5px;
@@ -359,8 +365,8 @@
     border: none;
     background-color: #333333;
     color: #fff;
-    width: 25%;
-    height: 20vh;
+    width: 50%;
+    height: 23vh;
 }
 .text-box input{
     width: 25%;
@@ -368,8 +374,8 @@
 .contact-button{
     border: none;
     background-color: #333333;
-    color: #008080; 
-    width: 150px;
+    color: #f46c38; 
+    width: 300px;
     height: 40px;
     margin-top: 20px;
     border-radius: 10px;
@@ -377,6 +383,21 @@
     font-size: medium;
 }
 .contact-details{
-    color:#333333;
-    
+    color:#fff;
 }   
+.contact-details-whole{
+    width: 35%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #333333;
+    border-radius: 20px ;
+    margin-right: 100px;
+    color:#fff;
+    background-color: #333333;
+}
+.footer{
+    color: #333333;
+}
